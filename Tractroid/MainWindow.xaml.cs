@@ -52,7 +52,6 @@ namespace Tractroid
             //  Draw a coloured pyramid.
             gl.Begin(OpenGL.GL_LINE_STRIP);
 
-
             for (double u = -3.5; u < 3.5; u += 0.1)
             {
                 for (double v = 0; v < 2 * Math.PI; v += 0.1)
@@ -65,30 +64,7 @@ namespace Tractroid
                     gl.Vertex(x, y, z);
                 }
             }
-            //gl.Color(1.0f, 0.0f, 0.0f);
-            //            gl.Vertex(0.0f, 1.0f, 0.0f);
-
-            //            gl.Vertex(-1.0f, -1.0f, 1.0f);
-            //           // gl.Color(0.0f, 0.0f, 1.0f);
-            //            gl.Vertex(1.0f, -1.0f, 1.0f);
-            //           // gl.Color(1.0f, 0.0f, 0.0f);
-            //            gl.Vertex(0.0f, 1.0f, 0.0f);
-
-            //            gl.Vertex(1.0f, -1.0f, 1.0f);
-            ////            gl.Color(0.0f, 1.0f, 0.0f);
-            //            gl.Vertex(1.0f, -1.0f, -1.0f);
-            //  //          gl.Color(1.0f, 0.0f, 0.0f);
-            //            gl.Vertex(0.0f, 1.0f, 0.0f);
-            //    //        gl.Color(0.0f, 1.0f, 0.0f);
-            //            gl.Vertex(1.0f, -1.0f, -1.0f);
-
-            //            gl.Vertex(-1.0f, -1.0f, -1.0f);
-
-            //            gl.Vertex(0.0f, 1.0f, 0.0f);
-            //      //      gl.Color(0.0f, 0.0f, 1.0f);
-            //            gl.Vertex(-1.0f, -1.0f, -1.0f);
-            //        //    gl.Color(0.0f, 1.0f, 0.0f);
-            //            gl.Vertex(-1.0f, -1.0f, 1.0f);
+           
             gl.End();
 
             //  Nudge the rotation.
